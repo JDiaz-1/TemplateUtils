@@ -28,4 +28,10 @@ class UUID32Utils
         }
         return true;
     }
+
+
+    public static function generateBinary16()
+    {
+        return hex2bin(UUID32Utils::generateString());
+    }
 }
