@@ -3,9 +3,7 @@
     "description": "Utils",
     "type": "library",
     "require": {
-        "php": "^7.3",
         "ramsey/uuid": "^4.2.1"
-        
     },
     "license": "MIT",
     "autoload": {
