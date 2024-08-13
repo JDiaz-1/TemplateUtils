@@ -8,12 +8,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Jdiaz\\Utils\\": "src/"
+            "Agrocolor\\Utils": "src/"
         }
     },
     "authors": [
         {
-            "name": "JDiaz"
+            "name": "Agrocolor"
         }
     ],
     "minimum-stability": "stable"
