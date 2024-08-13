@@ -1,6 +1,6 @@
 <?php
 
-namespace Jdiaz\Utils;
+namespace Agrocolor\Utils;
 
 use Ramsey\Uuid\Uuid as RamseyUuid;
 use InvalidArgumentException;
@@ -33,5 +33,9 @@ class UUID32Utils
     public static function generateBinary16()
     {
         return hex2bin(UUID32Utils::generateString());
+    }
+
+    public static function hash(string $data) : string {
+        return substr(hash('ripemd160', $data), 0, 32);
     }
 }
