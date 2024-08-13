@@ -38,4 +38,5 @@ class UUID32Utils
     public static function hash(string $data) : string {
         return substr(hash('ripemd160', $data), 0, 32);
     }
+
 }
