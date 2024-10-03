@@ -1,14 +1,13 @@
 {
-    "name": "agrocolor/utils",
-    "description": "Utils",
+    "name": "agrocolor/template-utils",
+    "description": "TemplateUtils",
     "type": "library",
     "require": {
-        "ramsey/uuid": "^4.2.1"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Agrocolor\\Utils\\": "src/"
+            "Agrocolor\\TemplateUtils\\": "src/"
         }
     },
     "authors": [
