@@ -19,6 +19,7 @@ class TemplateUtils
         // Iniciamos el buffer de salida
         ob_start();
 
+
         // Extraemos las variables del array para que estén disponibles en el scope local
         extract($data, EXTR_SKIP);
 
